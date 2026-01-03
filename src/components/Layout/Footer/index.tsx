@@ -150,7 +150,7 @@ const Footer: FC = () => {
         </div>
         <div className="border-t border-grey/15 dark:border-white/15 py-10 flex justify-between items-center">
           <p className="text-sm text-black/70 dark:text-white/70">
-            @2025 - Chef's kitchen. Distributed By <Link href="https://themewagon.com/" target="_blank" className="hover:text-primary">ThemeWagon</Link> and Developed by <Link href="https://getnextjstemplates.com/" className="hover:text-primary">GetNextjsTemplates</Link>
+            @2025 - Chef's kitchen-By Anurag Srivastava. 
           </p>
 
           <div className="">

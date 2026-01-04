@@ -83,13 +83,7 @@ const Header: React.FC = () => {
             ))}
           </nav>
           <div className="flex items-center gap-4">
-            <Link href="#" className="text-lg font-medium hover:text-primary">
-              <Icon
-                icon="solar:phone-bold"
-                className="text-primary text-3xl inline-block me-2"
-              />
-              +1(909) 235-9814
-            </Link>
+
             <Link
               href="#"
               className="hidden lg:block text-primary bg-primary/15 hover:text-white hover:bg-primary font-medium text-lg py-4 px-8 rounded-full"

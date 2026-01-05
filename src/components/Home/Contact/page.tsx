@@ -20,12 +20,12 @@ const Contact = () => {
 
             <li className="flex items-center gap-4">
               <i className="fa-solid fa-envelope text-primary text-xl"></i>
-              <p>anuragsrivastava8899@gmail.com</p>
+              <p>chefskitchen@gmail.com</p>
             </li>
 
             <li className="flex items-center gap-4">
               <i className="fa-solid fa-phone text-primary text-xl"></i>
-              <p>(123) 456-7896</p>
+              <p>+(123)-456-7896</p>
             </li>
 
             <li className="flex items-center gap-4">
@@ -40,7 +40,7 @@ const Contact = () => {
 
             <li className="flex items-center gap-4">
               <i className="fa-solid fa-globe text-primary text-xl"></i>
-              <p>www.cloudkitchen.com</p>
+              <p>www.chefskitchen.com</p>
             </li>
           </ul>
 

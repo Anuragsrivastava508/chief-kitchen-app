@@ -1,4 +1,4 @@
-# Chef's Kitchen - Next.js Website
+# Chef's Kitchen 
 
 A modern, responsive website for a chef's kitchen built with Next.js 14, TypeScript, and Tailwind CSS. This project features a complete kitchen website with authentication, blog system, documentation, and beautiful UI components.
 

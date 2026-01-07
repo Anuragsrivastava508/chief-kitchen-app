@@ -4,7 +4,7 @@ import Features from "@/components/Home/Features";
 import Cook from "@/components/Home/Cook";
 import Expert from "@/components/Home/Expert";
 import Gallery from "@/components/Home/Gallery";
-// import Review from "@/components/Home/Review/page";
+ import Review from "@/components/Home/Review/page";
 import Contact from "@/components/Home/Contact/page";
 import Newsletter from "@/components/Home/Newsletter";
 import { Metadata } from "next";
@@ -20,7 +20,7 @@ export default function Home() {
       <Cook />
       <Expert />
       <Gallery />
-      {/* <Review/> */}
+      <Review/>
       <Contact/>
       <Newsletter />
     </main>

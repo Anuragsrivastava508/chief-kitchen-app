@@ -59,7 +59,7 @@ A modern, responsive website for a chef's kitchen built with Next.js 14, TypeScr
 ## 📁 Project Structure
 
 ```
-chefs-kitchen-nextjs-free-1.0.0/
+chefs-kitchen-By Anurag
 ├── markdown/
 │   └── blog/
 │       ├── blog_1.mdx

@@ -48,8 +48,8 @@ const reviews = [
 
 const Review = () => {
   return (
-    <section className="mt-20 px-4 sm:px-6">
-      <h2 className="text-4xl md:text-5xl font-extrabold mb-14 text-center text-black tracking-wide">
+    <section className="mt-20 px-4 sm:px-6 bg-gray-20 dark:bg-gray-900">
+      <h2 className="text-4xl md:text-5xl font-extrabold mb-14 text-center text-gray-300 tracking-wide">
         Heard from the Happy Ones
       </h2>
 

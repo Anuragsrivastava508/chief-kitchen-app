@@ -7,8 +7,8 @@ import { Icon } from "@iconify/react";
 const Features = () => {
     return (
         <section>
-            <div className='container mx-auto lg:max-w-screen-xl md:max-w-screen-md' id="about-section">
-                <div className='text-center mb-14' >
+            <div className='container mx-auto lg:max-w-screen-xl md:max-w-screen-md bg-gray-20 dark:bg-gray-900' id="about-section">
+                <div className='text-center  mb-14' >
                     <p className='text-primary text-lg font-normal mb-3 tracking-widest uppercase'>Features</p>
                     <h2 className='text-3xl lg:text-5xl font-semibold text-black dark:text-white lg:max-w-60% mx-auto'>Get a many of interesting features.</h2>
                 </div>

@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Hero = () => {
 
     return (
-        <section id="home-section" className='bg-gray-50 dark:bg-gray-700'>
+        <section id="home-section" className='bg-gray-20 dark:bg-gray-900'>
             <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4 pt-20">
                 <div className='grid grid-cols-1 lg:grid-cols-12 items-center'>
                     <div className='col-span-6'>

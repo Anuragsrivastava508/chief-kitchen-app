@@ -34,39 +34,39 @@ export const ExpertData: {
     {
       profession: 'Senior Chef',
       name: 'Shoo Thar Mien',
-      imgSrc: '/images/Expert/boyone.svg',
+      imgSrc: '/images/expert/boyone.svg',
     },
     {
       profession: 'Junior Chef',
       name: 'Shoo Thar Mien',
-      imgSrc: '/images/Expert/girl.png',
+      imgSrc: '/images/expert/girl.png',
     },
     {
       profession: 'Junior Chef',
       name: 'Shoo Thar Mien',
-      imgSrc: '/images/Expert/boytwo.svg',
+      imgSrc: '/images/expert/boytwo.svg',
     },
     {
       profession: 'Junior Chef',
       name: 'Shoo Thar Mien',
-      imgSrc: '/images/Expert/girl.png',
+      imgSrc: '/images/expert/girl.png',
     },
     {
       profession: 'Senior Chef',
       name: 'Shoo Thar Mien',
-      imgSrc: '/images/Expert/boyone.svg',
+      imgSrc: '/images/expert/boyone.svg',
     },
     {
       profession: 'Junior Chef',
       name: 'Shoo Thar Mien',
-      imgSrc: '/images/Expert/boytwo.svg',
+      imgSrc: '/images/expert/boytwo.svg',
     },
   ]
 
 // data.tsx
 export const galleryImages = [
-  { src: '/images/Gallery/foodone.jpg', name: 'Caesar Salad(187 Kcal)', price: 35 },
-  { src: '/images/Gallery/foodtwo.jpg', name: 'Christmas salad(118 Kcal)', price: 17 },
-  { src: '/images/Gallery/foodthree.jpg', name: 'Sauteed mushrooms with pumpkin and sweet pepper(238 kcal)', price: 45 },
-  { src: '/images/Gallery/foodfour.jpg', name: 'BBQ Chicken Feast Pizza(272 kcal)', price: 27 },
+  { src: '/images/gallery/foodone.jpg', name: 'Caesar Salad(187 Kcal)', price: 35 },
+  { src: '/images/gallery/foodtwo.jpg', name: 'Christmas salad(118 Kcal)', price: 17 },
+  { src: '/images/gallery/foodthree.jpg', name: 'Sauteed mushrooms with pumpkin and sweet pepper(238 kcal)', price: 45 },
+  { src: '/images/gallery/foodfour.jpg', name: 'BBQ Chicken Feast Pizza(272 kcal)', price: 27 },
 ];

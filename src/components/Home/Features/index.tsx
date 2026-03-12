@@ -30,6 +30,7 @@ const Features = () => {
                                         className="text-primary "
                                     />
                                 </Link>
+                               
                             </div>
                         </div>
                     ))}

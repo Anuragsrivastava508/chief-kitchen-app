@@ -7,6 +7,7 @@ import Gallery from "@/components/Home/Gallery";
  import Review from "@/components/Home/Review/page";
 import Contact from "@/components/Home/Contact/page";
 import Newsletter from "@/components/Home/Newsletter";
+import MenuList from "@/components/Home/Menu/Menulist";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Kitchen",
@@ -20,9 +21,20 @@ export default function Home() {
       <Cook />
       <Expert />
       <Gallery />
+       <MenuList />
       <Review/>
       <Contact/>
       <Newsletter />
     </main>
   );
 }
+
+// import MenuList from "@/components/Menu/MenuList";
+
+// export default function MenuPage() {
+//   return (
+//     <div className="container mx-auto py-10">
+//       <MenuList />
+//     </div>
+//   );
+// }

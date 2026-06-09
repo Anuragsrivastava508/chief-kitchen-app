@@ -378,3 +378,80 @@ For support, please contact the development team or create an issue in the repos
 ---
 
 **Note**: This is a free version of the Chef's Kitchen Next.js template. For premium features and support, please check the official documentation or contact the developers.
+
+## ❗ Pending Tasks (auto-generated)
+
+The following items were discovered by a quick repo scan and should be addressed before production or client demos:
+
+- **Replace broad `any` usages with proper TypeScript types**
+   - Files with notable `any` usage: `src/utils/markdown.ts`, `src/components/Home/Menu/Menulist.tsx`, and several auth components.
+- **Remove or replace `console.log` debug statements**
+   - Examples: `src/components/Documentation/DocNavigation.tsx`, `src/app/api/newsletter/route.ts`.
+- **Improve error handling in authentication components and API routes**
+   - Several catches use `toast.error(error?.response?.data)` and `console.log` without typed handling: `src/components/Auth/*` (SignIn, SignUp, ForgotPassword, ResetPassword, MagicLink).
+- **Validate and fix newsletter route**
+   - Remove dev logging and return proper responses in `src/app/api/newsletter/route.ts`.
+- **Add ESLint / TypeScript rules to catch issues**
+   - Suggested rules: `no-console`, `@typescript-eslint/no-explicit-any`.
+- **Audit and type `Menulist` and related order logic**
+   - Ensure order creation (`placeOrder`) uses typed payloads and server validation.
+- **Create tracked issues for remaining TODOs/FIXMEs**
+   - Convert informal comments into GitHub issues with owners and priority.
+
+If you want, I can start with any of the above (I recommend starting with typing `any` usages).
+
+## 🧾 Client Presentation Template (for freelance prospects)
+
+Use this template to present your site and services to potential clients. Copy into an email, PDF, or a simple landing page.
+
+Title: Professional Website & Web App Services — Chef's Kitchen Demo
+
+Greeting:
+
+Hello [Client Name],
+
+Introduction:
+
+My name is [Your Name]. I build modern, responsive websites and web apps. I created the Chef's Kitchen demo to showcase the kind of work I deliver for freelance clients in the food, hospitality, and personal brand spaces.
+
+What I built (quick highlights):
+
+- Modern, responsive UI with light/dark theme support
+- Full authentication (email, social, magic link, password reset)
+- Blog system using MDX for rich content
+- Documentation and admin-style pages
+- Newsletter subscription and gallery features
+
+Current status & readiness for clients:
+
+- Production-ready UI and layout: ✅
+- Auth flows: Partial — error handling and some type-safety improvements pending
+- Newsletter: Needs dev-log removal and final testing
+- Menu & ordering: Needs TypeScript typing and server-side validation
+
+What I can deliver for you:
+
+- A polished, branded version of the demo tailored to your content
+- Secure authentication and user management
+- Custom menu/order flows and admin panel
+- SEO, performance tuning, and deployment to Vercel/Netlify
+
+Estimated timeline & price (example):
+
+- Discovery & design tweaks: 1 week
+- Feature completion & testing: 2–3 weeks
+- Final polish & deployment: 1 week
+- Estimated cost: [₹ / $] depending on scope — provide budget to get a firm quote.
+
+Call to Action:
+
+If you like this demo, reply with a few details about your needs (pages, user actions, payment integration). I’ll send a short proposal and timeline.
+
+Contact:
+
+- Email: [your-email@example.com]
+- Portfolio: [your-portfolio-link]
+
+—
+
+Need me to write a tailored proposal for a specific client or create a short demo video from this app? I can do that next.xx

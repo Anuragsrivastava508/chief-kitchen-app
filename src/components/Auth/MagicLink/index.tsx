@@ -15,7 +15,7 @@ const MagicLink = () => {
     if (!email) {
       return toast.error("Please enter your email address.");
     }
-
+    
     setLoader(true);
     if (!validateEmail(email)) {
       setLoader(false);

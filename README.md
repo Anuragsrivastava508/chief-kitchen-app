@@ -246,7 +246,7 @@ Blog posts are written in MDX format and stored in `markdown/blog/`. Each post r
 - `date`: Publication date
 - `coverImage`: Cover image path
 - `author`: Author name
-- `authorImage`: Author profile image
+ - `authorImage`: Author profile image
 
 ### Images
 
@@ -358,7 +358,7 @@ The application can be deployed to:
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+4. Push to the b   ranch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
 ## 📄 License
@@ -371,7 +371,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Tailwind CSS for the utility-first CSS framework
 - All contributors and maintainers of the open-source libraries used
 
-## 📞 Support
+## 📞 Support 
 
 For support, please contact the development team or create an issue in the repository.
 
@@ -454,4 +454,4 @@ Contact:
 
 —
 
-Need me to write a tailored proposal for a specific client or create a short demo video from this app? I can do that next.xx
+Need me to write a tailored proposal for a specific client or create a short demo video from this app? I can do that next.x
